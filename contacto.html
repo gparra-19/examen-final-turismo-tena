@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Contacto | Tena Napo Turismo</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo Tena Napo Turismo">
+                <h1>Tena Provincia de Napo - Ecuador - Turismo</h1>
+                <p class="eslogan">"Donde la selva vive y el río te llama"</p>
+            </div>
+            
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html" class="activo">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="banner-interno">
+        <div class="container">
+            <h2>¡Planifica tu Viaje!</h2>
+            <p>Escríbenos y con gusto te ayudaremos a organizar tu visita a Tena</p>
+        </div>
+    </section>
+
+    <main class="container form-page">
+        <h2 class="titulo-pagina">Solicita tu Viaje</h2>
+        <p class="intro-texto">Llena el formulario y te responderemos con un plan personalizado.</p>
+        <form action="#" method="post" class="formulario-contacto">
+            <div class="form-grupo">
+                <label for="nombre">Nombre completo *</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre y apellido">
+            </div>
+            
+            <div class="form-grupo">
+                <label for="correo">Correo electrónico *</label>
+                <input type="email" id="correo" name="correo" required placeholder="tu@email.com">
+            </div>
+            
+            <div class="form-grupo">
+                <label for="telefono">Teléfono / Celular *</label>
+                <input type="tel" id="telefono" name="telefono" required placeholder="+593 9XX XXX XXX">
+            </div>
+            
+            <div class="form-grupo">
+                <label for="destino">Destino o actividad de interés *</label>
+                <select id="destino" name="destino" required>
+                    <option value="">-- Selecciona una opción --</option>
+                    <option value="rio-napo">Río Napo - Rafting</option>
+                    <option value="cascada-agoyan">Cascada de Agoyán</option>
+                    <option value="comunidad-sarayacu">Comunidad de Sarayacu</option>
+                    <option value="parque-jumandy">Parque Jumandy</option>
+                    <option value="rio-misahualli">Río Misahuallí</option>
+                    <option value="otro">Otro destino / aún no decido</option>
+                </select>
+            </div>
+            
+            <div class="form-grupo">
+                <label for="fecha">Fecha aproximada del viaje *</label>
+                <input type="date" id="fecha" name="fecha" required>
+            </div>
+             
+            <div class="form-grupo">
+                <label for="personas">Número de personas *</label>
+                <input type="number" id="personas" name="personas" min="1" max="50" required placeholder="Ej. 4">
+            </div>
+            
+            <div class="form-grupo">
+                <label for="servicio">Tipo de servicio de interés *</label>
+                <select id="servicio" name="servicio" required>
+                    <option value="">-- Selecciona un paquete --</option>
+                    <option value="rafting">Tour de Aventura - Rafting</option>
+                    <option value="naturaleza">Tour de Naturaleza y Selva</option>
+                    <option value="cultural">Tour Cultural Comunitario</option>
+                    <option value="completo">Paquete Completo 2 Días / 1 Noche</option>
+                    <option value="personalizado">Paquete personalizado</option>
+                </select>
+            </div>
+            
+            <div class="form-grupo">
+                <label for="mensaje">Mensaje o comentarios adicionales</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos si tienes alguna necesidad especial, fechas flexibles, preguntas..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-enviar">Enviar Solicitud</button>
+        </form>
+    </main>
+    
+    <footer>
+        </div>
+            <div class="footer-col">
+                <h4>Contacto</h4>
+                <p>📍 Tena - Provincia de Napo - Ecuador</p>
+                <p>📞 +593 959 888 066</p>
+                <p>✉️ info@tenanapoturismo.ec</p>
+                <p>Horario: 9:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2026 Tena - Turismo de Naturaleza y Aventura. Todos los derechos reservados.</p>
+            <p>Desarrollado por: Parra Mencias Génesis Carolina</p>
+        </div>
+    </footer>
+</body>
+</html>
