@@ -3,7 +3,7 @@
 Sitio web de agencia turística *Tena Napo Turismo*, enfocada en la promoción del turismo en Tena y la provincia de Napo, Ecuador.
 
 ## Estudiante
- [PARRA MENCIAS GENESIS CAROLINA]
+ PARRA MENCIAS GENESIS CAROLINA
  ## Destino turístico asignado
  *Tena, Provincia de Napo — Ecuador*
  - Enfoque: Ríos, rafting, selva, turismo comunitario y aventura.
