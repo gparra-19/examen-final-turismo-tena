@@ -4,11 +4,14 @@ Sitio web de agencia turística *Tena Napo Turismo*, enfocada en la promoción d
 
 ## Estudiante
  PARRA MENCIAS GENESIS CAROLINA
+ 
  ## Destino turístico asignado
  *Tena, Provincia de Napo — Ecuador*
  - Enfoque: Ríos, rafting, selva, turismo comunitario y aventura.
+ - 
  ## Descripción del proyecto
  Sitio web informativo desarrollado como examen práctico. Promueve los atractivos turísticos, servicios y paquetes de la región, incluyendo: ríos, cascadas, comunidades indígenas, gastronomía, aventura y naturaleza.
+ 
  ## Tecnologías utilizadas
  - ✅ *HTML5* — Estructura semántica
  - ✅ *CSS3* — Estilos, Flexbox, Grid, diseño responsive
