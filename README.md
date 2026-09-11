@@ -26,4 +26,4 @@ Sitio web de agencia turística *Tena Napo Turismo*, enfocada en la promoción d
  ## Captura de pagina principal
  <img width="1084" height="521" alt="image" src="https://github.com/user-attachments/assets/1325a40e-71bd-41d4-ba83-170da85a70d2" />
  ## URL del sitio publicado
- [Pega aquí el enlace de GitHub Pages cuando lo publiques]
+  https://gparra-19.github.io/examen-final-turismo-tena/
